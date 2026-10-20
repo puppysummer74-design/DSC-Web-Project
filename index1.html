@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSC 웹 프로젝트 사이트</title>
+    <style>
+html{ scroll-behavior: smooth;}
+    
+    body{
+        fount-family:"맑은고딕",sans-serif;
+         max-width:600px;
+    margin:40px auto;
+    padding: 0 16px;
+    background-color:rgb(227, 204, 204);
+    }
+    h1{
+        color: s #222 ;
+        border-bottom: 10px solid #2c7be5;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    p{color: #666666;
+    }
+    ul{
+list-style:cirle;
+padding:0;
+/*border: 1px solid blueviolet;*/
+
+
+    }
+    li{
+        margin: 20px;
+        /*border: 1px solid blueviolet;*/
+        border:1px solid black;
+    }
+/*목차 카드 링크 스타일 적용*/
+    a{
+        border: 1px solid blueviolet;
+        display: block;
+        padding:22px 20px ;
+        background-color: white;
+        color:#2c7be5;
+        text-decoration: none;
+        font-weight:bold ;
+     border: 1px solid #dddddd;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+     transition:all 1s;
+     /*tramsition은 마우스를 갖다 댔을때 반응 속도*/
+    }
+    a:hover{
+        cursor:pointer;
+        background-color: #2c3e50;
+        color: white;
+        border-color: #2c3e50;
+        padding-left: 30px;
+    }
+    /*페이지 맨 위로 가기 top-btn * 스타일 적용*/
+    p.top-btn{
+        text-align: center;
+        margin: 40px;
+    }
+    p.top-btn
+     a{
+        display:inline-block;
+        padding: 12px 28px;
+        font-size: 18px;
+        background: #2c7be5;
+color:white;
+border:none ;
+border-radius: 30px;
+
+     }
+      p.top-btn a:hover{
+        background-color: #2c3e50;
+        padding-left: 25px;
+      }
+    </style>
+</head>
+<body id="top">
+    <h1>고승희의 HTML 연습페이지</h1>
+    <p>아래 링크를 누르면 연습 파일 웹페이지로 이동</p>
+    <ul>
+        <li><a href="/html/test01.html" target="_blank" >test01</a></li>
+        <li><a href="/html/test02.html" target="_blank">test02</a></li> 
+    <li><a href="/html/test03.html" target="_blank">test03</a></li>
+     <li><a href="/html/test04.html" target="_blank">test04</a></li>
+      <li><a href="/html/test05.html" target="_blank">test05</a></li>
+       <li><a href="/html/test06.html" target="_blank">test06</a></li>
+        <li><a href="/html/test07.html" target="_blank">test07</a></li>
+        <li><a href="/html/test08.html" target="_blank">test08</a></li>
+        <li><a href="/html/test09.html" target="_blank">test09</a></li>
+        <li><a href="/html/test010.html"target="_blank">test010</a></li>
+        <li><a href="/html/test09-2.html" target="_blank">test09-2</a></li>
+        <li><a href="/html/test09-3.html" target="_blank">test09-3</a></li>
+        <li><a href="/html/test09-4.html" target="_blank">test09-4</a></li>
+        <li><a href></a></li>
+    </ul>
+ <!-- 맨 위로 이동 :body 태그에 id 값 id="top" 적용 후 이동.-->   
+  <P class="top-btn">  
+    <a href="#top">▲ 맨 위로 이동</a></P>
+ 
+</body>
+</html>S
